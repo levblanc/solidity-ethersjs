@@ -9,7 +9,7 @@ async function main() {
 
   // // creating wallet from encrypted private key
   // const encryptedJson = fs.readFileSync('./encryptKey.json', 'utf-8');
-  // let wallet = new ethers.Wallet.fromEncryptedJsonSync(
+  // let wallet = ethers.Wallet.fromEncryptedJsonSync(
   //   encryptedJson,
   //   process.env.PRIVATE_KEY_PASSWORD
   // );
